@@ -1,0 +1,275 @@
+
+
+/* section */
+.main {
+  background-color: #404040;
+  height: 30rem;
+  display: flex;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p2 {
+  font-family: sans-serif;
+  color: whitesmoke;
+  font-size: 14px;
+}
+
+.intro .name {
+  position: relative;
+  top: 6rem;
+  left: 4rem;
+  z-index: 2;
+}
+
+.intro .name p1 {
+  font-size: 25px;
+  font-family: "Times New Roman";
+}
+.intro .name h1 {
+  font-size: 55px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+
+.intro hr {
+  width: 11rem;
+  height: 5px;
+  background-color: #ffff00;
+  position: relative;
+  left: 4rem;
+  top: 5rem;
+}
+.my-content {
+  width: 280px;
+  height: 150px;
+  padding: 4px 4px;
+  position: relative;
+  top: 6rem;
+  left: 4rem;
+}
+.border {
+  width: 23rem;
+  height: 23rem;
+  position: relative;
+  bottom: 16rem;
+  left: 25rem;
+  border-radius: 12rem;
+  background-color: #222222;
+}
+
+.border #img {
+  position: relative;
+  left: 2rem;
+  top: 1rem;
+  z-index: 1;
+}
+
+.main .services {
+  position: relative;
+  left: 19rem;
+  top: 5rem;
+  width: 300px;
+  height: 250px;
+  padding: 5px 5px;
+}
+
+.main #icon-colors ul li {
+  display: flex;
+  list-style: none;
+  display: inline;
+  color: yellow;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  margin-right: 10px;
+  top: 20px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(180, 180, 180);
+}
+
+/* -----------logo part-------------*/
+
+.logos-slider {
+  display: flex;
+  justify-content: space-evenly;
+  width: 58em;
+  height: 6rem;
+  position: relative;
+  left: 5rem;
+  bottom: 3rem;
+  z-index: 2;
+  background-color: #404040;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.meta {
+  background-color: #222222;
+  width: 8rem;
+  height: 42px;
+  border-radius: 4px;
+  margin-top: 27px;
+}
+.meta img {
+  position: relative;
+  bottom: 13px;
+  left: 18px;
+}
+
+.google {
+  background-color: #222222;
+  width: 8rem;
+  height: 42px;
+  border-radius: 4px;
+  margin-top: 27px;
+}
+.google img {
+  position: relative;
+  bottom: 7px;
+  left: 18px;
+}
+
+.linkedin {
+  background-color: #222222;
+  width: 8rem;
+  height: 42px;
+  border-radius: 4px;
+  margin-top: 27px;
+}
+.linkedin img {
+  position: relative;
+  bottom: 23px;
+  left: 15px;
+}
+
+.slack {
+  background-color: #222222;
+  width: 8rem;
+  height: 42px;
+  border-radius: 4px;
+  margin-top: 27px;
+}
+
+.slack img {
+  position: relative;
+  bottom: 13px;
+  left: 14px;
+}
+
+/*-------------------------------services box 1--------------------------------------*/
+
+.Services_i_provide {
+  display: flex;
+  justify-content: space-around;
+  height: 30rem;
+  position: relative;
+  bottom: 6rem;
+  color: white;
+  background-color: #222222;
+}
+
+.Services_i_provide .Project_info {
+  width: 20rem;
+  height: 10rem;
+  position: relative;
+  top: 9rem;
+  right: 10px;
+}
+
+.acheivements {
+  width: 20rem;
+  height: 10rem;
+  display: flex;
+  position: relative;
+  top: 1rem;
+}
+.acheivements_1 {
+  width: 20rem;
+  height: 8rem;
+  position: relative;
+  top: 1rem;
+}
+
+.acheivements_2 {
+  width: 20rem;
+  height: 8rem;
+  position: relative;
+  top: 1rem;
+}
+.Yellow-font {
+  color: yellow;
+  font-size: large;
+}
+#small-font {
+  font-size: x-small;
+  color: gray;
+}
+
+.Services_i_provide .Project_type {
+  width: 27rem;
+
+  height: 20rem;
+  position: relative;
+  top: 9rem;
+  right: 10px;
+  margin: 3px 3px;
+}
+.inline {
+  display: inline;
+  font-size: 15px;
+}
+.float {
+  float: right;
+  position: relative;
+  top: 28px;
+  font-size: 17px;
+  color: yellow;
+}
+
+/*---------------part 3________________*/
+
+.Services-detail {
+  display: flex;
+  background-color: #222222;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  position: relative;
+  bottom: 6rem;
+  height: 22rem;
+  font-family: sans-serif;
+  color: white;
+  font-size: 13px;
+}
+.detail {
+  height: 13rem;
+  width: 16rem;
+  margin: 10px;
+  position: relative;
+  top: 4rem;
+  border-radius: 7px;
+  background-color: #404040;
+  padding: 15px 6px;
+  box-shadow: rgba(250, 249, 249, 0.4) 0px 2px 4px,
+    rgba(255, 254, 254, 0.3) 0px 7px 13px -3px,
+    rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.detail i,
+svg {
+  font-size: 25px;
+  border-radius: 8rem;
+  color: yellow;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background-color: #404040;
+  color: white;
+  position: relative;
+  bottom: 6rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 15px;
+}
+
